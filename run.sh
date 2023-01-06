@@ -27,3 +27,5 @@ mv $file_out $file_final
 # adb install -r "C:\Users\Akbar Yahya\Desktop\Projek\YuukiPS\Launcher-Android\app\build\outputs\apk\release\app-release-aligned-debugSigned.apk"
 echo "Trying to install on phone (Final)"
 adb install -r "$(PWD)/$file_final"
+
+test
